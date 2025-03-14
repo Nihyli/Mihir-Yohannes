@@ -1,0 +1,6 @@
+companyUuid,contactUuid,name,street,city,state,zip
+111aaa22-bb33-cc44-dd55-666eee777fff,1a2b3c4d-5678-90ab-cdef-1234567890ab,Tech Solutions,123 Innovation Drive,Silicon Valley,CA,94027
+222bbb33-cc44-dd55-ee66-777fff888aaa,2b3c4d5e-6789-01ab-cdef-2345678901bc,Green Energy Inc,47 Solar Lane,Denver,CO,80203
+333ccc44-dd55-ee66-ff77-888aaa999bbb,3c4d5e6f-7890-12ab-cdef-3456789012cd,Smith & Sons Construction,789 Builder Road,Austin,TX,73301
+444ddd55-ee66-ff77-aa88-999bbb000ccc,4d5e6f7f-8901-23ab-cdef-4567890123de,Rural Tech Solutions,2 Main Street,Little Town,NE,68901
+555eee66-ff77-aa88-bb99-000ccc111ddd,5e6f7a8b-9012-34ab-cdef-5678901234ef,Metro Retailers,700 Market Plaza,New York,NY,10001

@@ -1,0 +1,57 @@
+<list>
+  <com.vgb.Company>
+    <companyUUID>111aaa22-bb33-cc44-dd55-666eee777fff</companyUUID>
+    <contactUUID>1a2b3c4d-5678-90ab-cdef-1234567890ab</contactUUID>
+    <companyName>Tech Solutions</companyName>
+    <address>
+      <street>123 Innovation Drive</street>
+      <city>Silicon Valley</city>
+      <state>CA</state>
+      <zip>94027</zip>
+    </address>
+  </com.vgb.Company>
+  <com.vgb.Company>
+    <companyUUID>222bbb33-cc44-dd55-ee66-777fff888aaa</companyUUID>
+    <contactUUID>2b3c4d5e-6789-01ab-cdef-2345678901bc</contactUUID>
+    <companyName>Green Energy Inc</companyName>
+    <address>
+      <street>47 Solar Lane</street>
+      <city>Denver</city>
+      <state>CO</state>
+      <zip>80203</zip>
+    </address>
+  </com.vgb.Company>
+  <com.vgb.Company>
+    <companyUUID>333ccc44-dd55-ee66-ff77-888aaa999bbb</companyUUID>
+    <contactUUID>3c4d5e6f-7890-12ab-cdef-3456789012cd</contactUUID>
+    <companyName>Smith &amp; Sons Construction</companyName>
+    <address>
+      <street>789 Builder Road</street>
+      <city>Austin</city>
+      <state>TX</state>
+      <zip>73301</zip>
+    </address>
+  </com.vgb.Company>
+  <com.vgb.Company>
+    <companyUUID>444ddd55-ee66-ff77-aa88-999bbb000ccc</companyUUID>
+    <contactUUID>4d5e6f7f-8901-23ab-cdef-4567890123de</contactUUID>
+    <companyName>Rural Tech Solutions</companyName>
+    <address>
+      <street>2 Main Street</street>
+      <city>Little Town</city>
+      <state>NE</state>
+      <zip>68901</zip>
+    </address>
+  </com.vgb.Company>
+  <com.vgb.Company>
+    <companyUUID>555eee66-ff77-aa88-bb99-000ccc111ddd</companyUUID>
+    <contactUUID>5e6f7a8b-9012-34ab-cdef-5678901234ef</contactUUID>
+    <companyName>Metro Retailers</companyName>
+    <address>
+      <street>700 Market Plaza</street>
+      <city>New York</city>
+      <state>NY</state>
+      <zip>10001</zip>
+    </address>
+  </com.vgb.Company>
+</list>

@@ -1,0 +1,6 @@
+uuid,firstName,lastName,phone,email(s)
+1a2b3c4d-5678-90ab-cdef-1234567890ab,John,Doe,555-1234,john.doe@gmail.com
+2b3c4d5e-6789-01ab-cdef-2345678901bc,Jane,Smith,555-5678,jane.smith@example.com,jane.work@company.com
+3c4d5e6f-7890-12ab-cdef-3456789012cd,Michael,Johnson,555-7890,
+4d5e6f7f-8901-23ab-cdef-4567890123de,Emily,Clarkson-Davis,555-9012,emily.cd@example.com
+5e6f7a8b-9012-34ab-cdef-5678901234ef,Noah,Taylor,,noah.taylor@example.com

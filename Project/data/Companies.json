@@ -1,0 +1,57 @@
+[
+  {
+    "companyUUID": "111aaa22-bb33-cc44-dd55-666eee777fff",
+    "contactUUID": "1a2b3c4d-5678-90ab-cdef-1234567890ab",
+    "companyName": "Tech Solutions",
+    "address": {
+      "street": "123 Innovation Drive",
+      "city": "Silicon Valley",
+      "state": "CA",
+      "zip": "94027"
+    }
+  },
+  {
+    "companyUUID": "222bbb33-cc44-dd55-ee66-777fff888aaa",
+    "contactUUID": "2b3c4d5e-6789-01ab-cdef-2345678901bc",
+    "companyName": "Green Energy Inc",
+    "address": {
+      "street": "47 Solar Lane",
+      "city": "Denver",
+      "state": "CO",
+      "zip": "80203"
+    }
+  },
+  {
+    "companyUUID": "333ccc44-dd55-ee66-ff77-888aaa999bbb",
+    "contactUUID": "3c4d5e6f-7890-12ab-cdef-3456789012cd",
+    "companyName": "Smith \u0026 Sons Construction",
+    "address": {
+      "street": "789 Builder Road",
+      "city": "Austin",
+      "state": "TX",
+      "zip": "73301"
+    }
+  },
+  {
+    "companyUUID": "444ddd55-ee66-ff77-aa88-999bbb000ccc",
+    "contactUUID": "4d5e6f7f-8901-23ab-cdef-4567890123de",
+    "companyName": "Rural Tech Solutions",
+    "address": {
+      "street": "2 Main Street",
+      "city": "Little Town",
+      "state": "NE",
+      "zip": "68901"
+    }
+  },
+  {
+    "companyUUID": "555eee66-ff77-aa88-bb99-000ccc111ddd",
+    "contactUUID": "5e6f7a8b-9012-34ab-cdef-5678901234ef",
+    "companyName": "Metro Retailers",
+    "address": {
+      "street": "700 Market Plaza",
+      "city": "New York",
+      "state": "NY",
+      "zip": "10001"
+    }
+  }
+]

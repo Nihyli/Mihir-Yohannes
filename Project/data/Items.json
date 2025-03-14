@@ -1,0 +1,46 @@
+[
+  {
+    "modelNumber": "EX2000",
+    "retailPrice": 250000.0,
+    "itemUUID": "a1b2c3d4-e5f6-7890-abcd-1234567890ab",
+    "itemName": "Excavator"
+  },
+  {
+    "modelNumber": "FL550",
+    "retailPrice": 22000.0,
+    "itemUUID": "b2c3d4e5-f6a7-8901-bcde-2345678901bc",
+    "itemName": "Forklift"
+  },
+  {
+    "modelNumber": "MN300",
+    "retailPrice": 18000.0,
+    "itemUUID": "c3d4e5f6-a7b8-9012-cdef-3456789012cd",
+    "itemName": "Mini Excavator"
+  },
+  {
+    "itemUnit": "pallet",
+    "costPerUnit": 500.0,
+    "quantity": 0,
+    "itemUUID": "d4e5f6a7-b8c9-0123-defa-4567890123de",
+    "itemName": "Bricks"
+  },
+  {
+    "itemUnit": "ton",
+    "costPerUnit": 2000.0,
+    "quantity": 0,
+    "itemUUID": "e5f6a7b8-c9d0-1234-efab-5678901234ef",
+    "itemName": "Steel Beams"
+  },
+  {
+    "companyUUID": "222bbb33-cc44-dd55-ee66-777fff888aaa",
+    "contractCost": 0.0,
+    "itemUUID": "f6a7b8c9-d0e1-2345-fabc-6789012345fa",
+    "itemName": "Roof Installation"
+  },
+  {
+    "companyUUID": "333ccc44-dd55-ee66-ff77-888aaa999bbb",
+    "contractCost": 0.0,
+    "itemUUID": "a7b8c9d0-e1f2-3456-abcd-7890123456ab",
+    "itemName": "HVAC Setup"
+  }
+]
