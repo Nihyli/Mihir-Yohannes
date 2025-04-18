@@ -1,6 +1,11 @@
-uuid,firstName,lastName,phone,email(s)
-1a2b3c4d-5678-90ab-cdef-1234567890ab,John,Doe,555-1234,john.doe@gmail.com
-2b3c4d5e-6789-01ab-cdef-2345678901bc,Jane,Smith,555-5678,jane.smith@example.com,jane.work@company.com
-3c4d5e6f-7890-12ab-cdef-3456789012cd,Michael,Johnson,555-7890,
-4d5e6f7f-8901-23ab-cdef-4567890123de,Emily,Clarkson-Davis,555-9012,emily.cd@example.com
-5e6f7a8b-9012-34ab-cdef-5678901234ef,Noah,Taylor,,noah.taylor@example.com
+personUUID,firstName,lastName,phone,email
+30f42bcf-2556-491e-8c0c-4e52d7dcfd90,Mateo,Tarren,555-1111,mtarren0@cocolog-nifty.com
+6056d47e-dd04-46ee-b711-ba49d9d3d38a,Louisette,Gosdin,555-2222,lgosdin4@e-recht24.de
+7f90331d-8d51-43d7-8fab-9d5baf6019bf,Julietta,Ellam,555-3333,jellam3@dropbox.com
+65678ae9-43e6-48bf-b80f-6b6ec5189c66,Karia,Ubee,555-4444,kubee9@answers.com
+96aa54a4-f452-405c-82b2-12f262095f75,Lydie,Haugeh,555-5555,lhaugeh1@liveinternet.ru
+aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa,John,Doe,555-6666,john.doe@example.com
+bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb,Jane,Smith,555-7777,jane.smith@example.com
+cccccccc-cccc-cccc-cccc-cccccccccccc,Bob,Johnson,555-8888,bob.johnson@example.com
+dddddddd-dddd-dddd-dddd-dddddddddddd,Alice,Williams,555-9999,alice.williams@example.com
+eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee,Charlie,Brown,555-0000,charlie.brown@example.com
