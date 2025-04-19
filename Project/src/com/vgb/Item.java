@@ -32,4 +32,5 @@ public abstract class Item {
 	public abstract double preTaxCost();
 	public abstract double getTaxes();
 	public abstract double getRetailPrice();
+	public abstract void printDetailedReport();
 }

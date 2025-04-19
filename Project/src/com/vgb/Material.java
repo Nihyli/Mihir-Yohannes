@@ -65,4 +65,15 @@ public class Material extends Item {
     public double getRetailPrice() {
         return preTaxCost();
     }
+    
+    @Override
+    public void printDetailedReport() {
+        System.out.printf("%s (Material) %s\n",
+            getItemUUID(), getItemName());
+        System.out.printf("\t%d @ $%.2f/%s\n",
+            quantity, costPerUnit, itemUnit);
+        double tax = getTaxes();
+        double preTax = preTaxCost();
+        System.out.printf("%60s $%11.2f $%11.2f\n","", tax, preTax);
+    }
 }

@@ -53,5 +53,13 @@ public class Equipment extends Item {
 	    System.out.println(formatted);
 		return formatted;
 	}
+	
+    @Override
+    public void printDetailedReport() {
+        System.out.printf("%s (Purchase) %s-%s\n", getItemUUID(), getItemName(), modelNumber);
+        double tax = getTaxes();
+        double preTax = preTaxCost();
+        System.out.printf("%60s $%11.2f $%11.2f\n","", tax, preTax);
+    }
 }
 

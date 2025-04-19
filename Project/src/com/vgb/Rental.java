@@ -43,4 +43,15 @@ public class Rental extends Equipment {
     public double getPerHourCharge() {
         return perHourCharge;
     }
+    
+    @Override
+    public void printDetailedReport() {
+        System.out.printf("%s (Rental) %s-%s\n",
+            getItemUUID(), getItemName(), getModelNumber());
+        System.out.printf("\t%.2f hours @ $%.2f/hour\n",
+            hoursRented, perHourCharge);
+        double tax = getTaxes();
+        double preTax = preTaxCost();
+        System.out.printf("%60s $%11.2f $%11.2f\n","", tax, preTax);
+    }
 }

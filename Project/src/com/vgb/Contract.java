@@ -53,4 +53,12 @@ public class Contract extends Item {
 	public double getRetailPrice() {
 		return calculateCost();
 	}
+	
+    @Override
+    public void printDetailedReport() {
+        System.out.printf("%s (Contract) %s\n",getItemUUID(), getItemName());
+        double tax = getTaxes();
+        double preTax = preTaxCost();
+        System.out.printf("%60s $%11.2f $%11.2f\n","", tax, preTax);
+    }
 }

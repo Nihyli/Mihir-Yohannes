@@ -15,11 +15,8 @@ public class Lease extends Equipment {
     
     @Override
     public double preTaxCost() {
-        // Calculate the number of days in the lease (inclusive of both start and end dates)
         long leaseDays = ChronoUnit.DAYS.between(startDate, endDate) + 1;
-        // Calculate the lease duration as a fraction of the amortization period (5 years)
         double leaseDurationYears = leaseDays / 365.0;
-        // Calculate the pre-tax cost: (lease duration / 5 years) * retail price * 1.5 (50% markup)
         double preTax = (leaseDurationYears / 5.0) * super.getRetailPrice() * 1.5;
         return Math.round(preTax * 100.0) / 100.0;
     }
@@ -48,12 +45,21 @@ public class Lease extends Equipment {
         return formatted;
     }
     
-
     public LocalDate getStartDate() {
         return startDate;
     }
     
     public LocalDate getEndDate() {
         return endDate;
+    }
+    
+    @Override
+    public void printDetailedReport() {
+        System.out.printf("%s (Lease) %s-%s\n",getItemUUID(), getItemName(), getModelNumber());
+        long days = ChronoUnit.DAYS.between(startDate, endDate) + 1;
+        System.out.printf("\t%d days (%s -> %s)\n",days, startDate, endDate);
+        double tax = getTaxes();
+        double preTax = preTaxCost();
+        System.out.printf("%60s $%11.2f $%11.2f\n","", tax, preTax);
     }
 }
