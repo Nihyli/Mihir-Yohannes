@@ -1,0 +1,97 @@
+<list>
+  <com.vgb.Equipment>
+    <itemUUID>2dd5220e-6779-4fe7-81d2-b79dcbff3415</itemUUID>
+    <itemName>Dragline</itemName>
+    <modelNumber>DX200b</modelNumber>
+    <retailPrice>347125.0</retailPrice>
+  </com.vgb.Equipment>
+  <com.vgb.Equipment>
+    <itemUUID>4c0c851d-0466-42c8-8631-0b414db5be98</itemUUID>
+    <itemName>Bulldozer</itemName>
+    <modelNumber>XPXY4</modelNumber>
+    <retailPrice>125500.0</retailPrice>
+  </com.vgb.Equipment>
+  <com.vgb.Equipment>
+    <itemUUID>984bac8d-96f7-4d6b-9948-1cabae15ba51</itemUUID>
+    <itemName>Compactor</itemName>
+    <modelNumber>FLT100</modelNumber>
+    <retailPrice>4500.0</retailPrice>
+  </com.vgb.Equipment>
+  <com.vgb.Equipment>
+    <itemUUID>50e6f93f-3792-459f-b1c6-b512b994ff2b</itemUUID>
+    <itemName>Dump Truck</itemName>
+    <modelNumber>DUMPRX5000</modelNumber>
+    <retailPrice>90450.0</retailPrice>
+  </com.vgb.Equipment>
+  <com.vgb.Equipment>
+    <itemUUID>e9afb98d-ac99-4974-a274-2dca5c1238f5</itemUUID>
+    <itemName>Skid-Steer</itemName>
+    <modelNumber>S4325</modelNumber>
+    <retailPrice>8500.0</retailPrice>
+  </com.vgb.Equipment>
+  <com.vgb.Material>
+    <itemUUID>ac47e0f6-5d5b-49fe-af54-a6625a6374a8</itemUUID>
+    <itemName>concrete</itemName>
+    <itemUnit>bag</itemUnit>
+    <costPerUnit>40.0</costPerUnit>
+    <quantity>0</quantity>
+  </com.vgb.Material>
+  <com.vgb.Material>
+    <itemUUID>72e157ac-5b46-4b3b-b86b-599a89be7289</itemUUID>
+    <itemName>sand</itemName>
+    <itemUnit>ton</itemUnit>
+    <costPerUnit>1500.0</costPerUnit>
+    <quantity>0</quantity>
+  </com.vgb.Material>
+  <com.vgb.Material>
+    <itemUUID>97dc9f91-c009-4e8d-b08c-3d4d0ded0bad</itemUUID>
+    <itemName>nails</itemName>
+    <itemUnit>box</itemUnit>
+    <costPerUnit>15.0</costPerUnit>
+    <quantity>0</quantity>
+  </com.vgb.Material>
+  <com.vgb.Material>
+    <itemUUID>30bebf58-ba44-4bef-885f-8fccb7db9544</itemUUID>
+    <itemName>lumber</itemName>
+    <itemUnit>lft</itemUnit>
+    <costPerUnit>8.0</costPerUnit>
+    <quantity>0</quantity>
+  </com.vgb.Material>
+  <com.vgb.Material>
+    <itemUUID>8c8bbffa-a939-44f4-98b7-66837e7d16e9</itemUUID>
+    <itemName>drywall</itemName>
+    <itemUnit>sheet</itemUnit>
+    <costPerUnit>35.0</costPerUnit>
+    <quantity>0</quantity>
+  </com.vgb.Material>
+  <com.vgb.Contract>
+    <itemUUID>38bebacb-a3ca-459e-a71f-8e5826a2f7fa</itemUUID>
+    <itemName>foundation pour</itemName>
+    <companyUUID>0673a09a-5cc1-4269-88f2-e665c2f3f33c</companyUUID>
+    <contractCost>0.0</contractCost>
+  </com.vgb.Contract>
+  <com.vgb.Contract>
+    <itemUUID>699607c3-d9db-4aef-a8ab-b3a6cab21e12</itemUUID>
+    <itemName>footing pour</itemName>
+    <companyUUID>0673a09a-5cc1-4269-88f2-e665c2f3f33c</companyUUID>
+    <contractCost>0.0</contractCost>
+  </com.vgb.Contract>
+  <com.vgb.Contract>
+    <itemUUID>ce9fc7f6-8be8-48cb-9236-7873dbf9b2b7</itemUUID>
+    <itemName>concrete pad pour</itemName>
+    <companyUUID>0673a09a-5cc1-4269-88f2-e665c2f3f33c</companyUUID>
+    <contractCost>0.0</contractCost>
+  </com.vgb.Contract>
+  <com.vgb.Contract>
+    <itemUUID>97ee84b8-dc93-4db2-84bd-48e72a7f3131</itemUUID>
+    <itemName>electric install</itemName>
+    <companyUUID>a8bae950-96ac-43a9-9a29-729db552e981</companyUUID>
+    <contractCost>0.0</contractCost>
+  </com.vgb.Contract>
+  <com.vgb.Contract>
+    <itemUUID>b118fa82-14cf-46f4-8574-41e583badc27</itemUUID>
+    <itemName>generator install</itemName>
+    <companyUUID>a8bae950-96ac-43a9-9a29-729db552e981</companyUUID>
+    <contractCost>0.0</contractCost>
+  </com.vgb.Contract>
+</list>

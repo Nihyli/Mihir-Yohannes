@@ -12,9 +12,9 @@ public class InvoiceReport {
 
     public static void main(String[] args) {
         // Load base data
-        List<Company> companies = DataLoader.loadCompanies("data/Companies.csv");
-        List<Person> persons = DataLoader.loadPersons("data/Persons.csv");
-        List<Item> baseItems = DataLoader.loadItems("data/Items.csv");
+        List<Company> companies = DatabaseLoader.loadCompanies("data/Companies.csv");
+        List<Person> persons = DatabaseLoader.loadPersons("data/Persons.csv");
+        List<Item> baseItems = DatabaseLoader.loadItems("data/Items.csv");
 
         // Build lookup maps
         Map<UUID, Company> companyMap = new HashMap<>();
@@ -32,13 +32,13 @@ public class InvoiceReport {
             itemLookup.put(item.getItemUUID(), item);
         }
 
-        // Load invoices and process invoice items using DataLoader
-        List<Invoice> invoiceList = DataLoader.loadInvoices("data/Invoices.csv", companyMap, personMap);
+        // Load invoices and process invoice items using DatabaseLoader
+        List<Invoice> invoiceList = DatabaseLoader.loadInvoices("data/Invoices.csv", companyMap, personMap);
         Map<UUID, Invoice> invoiceMap = new HashMap<>();
         for (Invoice inv : invoiceList) {
             invoiceMap.put(inv.getUuid(), inv);
         }
-        DataLoader.processInvoiceItems("data/InvoiceItems.csv", invoiceMap, itemLookup);
+        DatabaseLoader.processInvoiceItems("data/InvoiceItems.csv", invoiceMap, itemLookup);
 
 
         generateOverallSummaryReport(invoiceList);
